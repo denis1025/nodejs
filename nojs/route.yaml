@@ -3,7 +3,7 @@ apiVersion: route.openshift.io/v1
 metadata:
   name: nodejs-argo
 spec:
-  host: {{ .Values.application_domain | quote }}
+  host: nodejs-argo-ncb-test.apps.poc.ocp.nextbank.net
   to:
     kind: Service
     name: nodejs-argo

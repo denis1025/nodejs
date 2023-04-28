@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - name: nodejs-argo-example
-        image: image-registry.openshift-image-registry.svc:5000/ncb-imb/ncb-node-helm
+        image: image-registry.openshift-image-registry.svc:5000/ncb-test/nodejs-hello
         ports:
         - containerPort: 8080
         readinessProbe:
